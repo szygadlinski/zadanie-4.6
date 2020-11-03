@@ -32,6 +32,10 @@ section {
   margin: 0;
 }
 
+.col-md-4 {
+  margin-bottom: 48px;
+}
+
 /* Splash */
 .splash {
   position: relative;
@@ -127,5 +131,29 @@ section {
 .services p {
   margin: 10px 0 0;
   color: #979374;
+}
+
+/* Portfolio */
+.portfolio {
+  background: #F2EDDA;
+}
+
+.portfolio .image {
+  height: 400px;
+}
+
+.portfolio .image img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+.portfolio .text {
+  background: #fff;
+  padding: 30px 0;
+}
+
+.portfolio .text .section-subtitle {
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */

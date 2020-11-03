@@ -41,6 +41,10 @@ section {
 	margin: 0;
 }
 
+.col-md-4 {
+	margin-bottom: 48px;
+}
+
 /* Splash */
 
 .splash {
@@ -141,6 +145,34 @@ section {
 	p {
 		margin: 10px 0 0;
 		color: $color-mid;
+	}
+
+}
+
+/* Portfolio */
+
+.portfolio {
+	background: #F2EDDA;
+
+	.image {
+		height: 400px;
+
+		img {
+		width: 100%;
+		height: inherit;
+		object-fit: cover;
+		}
+
+	}
+
+	.text {
+		background: $color-light;
+		padding: 30px 0;
+
+		.section-subtitle {
+			margin: 0;
+		}
+
 	}
 
 }
