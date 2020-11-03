@@ -3,7 +3,8 @@
 $font-header: 'Rubik', sans-serif;
 $font-text: 'Slabo 27px', serif;
 $color-light: #fff;
-$color-dark: #241E00;
+$color-dark: #504800;
+$color-mid: #979374;
 $color-plus: #F0C801;
 
 /* Global */
@@ -12,6 +13,32 @@ body {
 	margin: 0;
 	color: $color-dark;
 	font-family: $font-text;
+}
+
+section {
+	padding: 96px 0;
+	text-align: center;
+}
+
+.section-title {
+	font-family: $font-header;
+	font-size: 45px;
+	font-weight: 900;
+	margin: 0;
+}
+
+.section-subtitle {
+	font-size: 18px;
+	font-weight: 100;
+	font-style: italic;
+	margin: 5px 0 60px;
+	color: $color-mid;
+}
+
+.img-title {
+	font-family: $font-header;
+	font-size: 20px;
+	margin: 0;
 }
 
 /* Splash */
@@ -73,7 +100,6 @@ body {
 		font-family: $font-header;
 		font-size: 80px;
 		font-weight: 900;
-		letter-spacing: 5px;
 		padding-bottom: 40px;
 	}
 
@@ -86,6 +112,35 @@ body {
 		background: $color-plus;
 		padding: 30px 60px;
 		border-radius: 10px;
+		background-position: 100% 0;
+		background-size: 300%;
+		background-image: linear-gradient(135deg, $color-dark 50%, transparent 50%);
+	}
+
+	.btn:hover {
+		color: $color-plus;
+		background-position: 0 100%;
+		transition: .5s;
+	}
+
+}
+
+/* Services */
+
+.services {
+
+	i {
+		font-size: 40px;
+		color: $color-plus;
+		border: 3px solid;
+		border-radius: 50%;
+		padding: 15px;
+		margin-bottom: 15px;
+	}
+
+	p {
+		margin: 10px 0 0;
+		color: $color-mid;
 	}
 
 }
