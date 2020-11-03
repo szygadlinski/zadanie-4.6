@@ -1,0 +1,81 @@
+/* Variables */
+/* Global */
+body {
+  margin: 0;
+  color: #241E00;
+  font-family: "Slabo 27px", serif;
+}
+
+/* Splash */
+.splash {
+  position: relative;
+  height: 100vh;
+  color: #fff;
+  background-image: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-position: center center;
+  background-size: cover;
+}
+
+.navbar {
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px 0;
+}
+
+.navbar-left img {
+  height: 60px;
+  padding: 10px 0;
+}
+
+.navbar-right {
+  margin-left: auto;
+  list-style-type: none;
+}
+
+.navbar-right li {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.navbar-right li a {
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: inherit;
+  padding: 0 25px;
+}
+
+.splash-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.splash-inner .page-subtitle {
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.splash-inner .page-title {
+  font-family: "Rubik", sans-serif;
+  font-size: 80px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  padding-bottom: 40px;
+}
+
+.splash-inner .btn {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: inherit;
+  background: #F0C801;
+  padding: 30px 60px;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */
