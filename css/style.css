@@ -124,7 +124,9 @@ section {
   color: #F0C801;
   border: 3px solid;
   border-radius: 50%;
-  padding: 15px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
   margin-bottom: 15px;
 }
 
@@ -155,5 +157,37 @@ section {
 
 .portfolio .text .section-subtitle {
   margin: 0;
+}
+
+/* Footer */
+.page-footer {
+  font-family: "Rubik", sans-serif;
+  padding: 48px 0 0;
+}
+
+.page-footer ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page-footer li {
+  display: inline;
+}
+
+.page-footer a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0;
+}
+
+.page-footer i {
+  font-size: 25px;
+  background: #504800;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
 }
 /*# sourceMappingURL=style.css.map */
